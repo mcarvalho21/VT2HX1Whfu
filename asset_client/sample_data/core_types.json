@@ -1,0 +1,96 @@
+[
+  {
+    "name": "asset",
+    "properties": [
+        {
+          "name": "type",
+          "dataType": 1,
+          "required": true
+        },
+        {
+          "name": "subtype",
+          "dataType": 1
+        },
+        {
+          "name": "supplier",
+          "dataType": 1
+        },
+        {
+          "name": "ranch",
+          "dataType": 1
+        },
+        {
+          "name": "coo",
+          "dataType": 1
+        },
+        {
+          "name": "nodeType",
+          "dataType": 1
+        },
+        {
+          "name": "itemId",
+          "dataType": 1
+        },
+        {
+          "name": "quantity",
+          "dataType": 2
+        },
+        {
+          "name": "uom",
+          "dataType": 1
+        },
+        {
+          "name": "description",
+          "dataType": 1
+        },        
+        {
+          "name": "qualityInfo",
+          "dataType": 1
+        },
+        {
+          "name": "inventDimensions",
+          "dataType": 1
+        },
+        {
+          "name": "lot",
+          "dataType": 1
+        },
+        {
+          "name": "lotBatch",
+          "dataType": 1
+        },
+        {
+          "name": "referenceId",
+          "dataType": 1
+        },
+        {
+          "name": "actionDate",
+          "dataType": 1
+        },
+        {
+          "name": "weight",
+          "dataType": 2
+        },
+        {
+          "name": "location",
+          "dataType": 4
+        },
+        {
+          "name": "temperature",
+          "dataType": 2
+        },
+        {
+          "name": "shock",
+          "dataType": 2
+        },
+        {
+          "name": "attachments",
+          "dataType": 1
+        },
+        {
+          "name": "refBlocks",
+          "dataType": 1
+        }        
+    ]
+  }
+]
