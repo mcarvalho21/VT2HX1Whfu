@@ -99,7 +99,7 @@ services:
     environment:
       - VALIDATOR_URL=tcp://validator:4004
       - DB_HOST=rethink
-    entrypoint: node index.js
+    entrypoint: bash -c "sleep 10 && node index.js"
 
   ledger-sync:
     image: supply-ledger-sync
@@ -120,6 +120,7 @@ services:
     environment:
       - VALIDATOR_URL=tcp://validator:4004
       - DB_HOST=rethink
+    entrypoint: bash -c "sleep 10 && node index.js"
 
   asset-client:
     image: supply-asset-client
